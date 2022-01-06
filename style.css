@@ -1,0 +1,52 @@
+body{
+    font-family: 'Domine', serif;
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Lobster', cursive;
+    font-family: 'Open Sans', sans-serif;
+}
+
+p{
+    font-weight: 900;
+}
+
+span{
+    color: seagreen;
+}
+.font-design{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 45px;
+    font-weight:900;
+    font-style: italic;
+}
+
+.first-border{
+    border-left:4px solid;
+    border-color: green;
+    border-radius: 2px;
+    padding-left: 10px;
+}
+
+.half-width{
+    width:50%;
+    padding-left: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.half-width img{
+    padding-top: 5%;
+}
+
+.flexible{
+    display: flex;
+}
+
+.link-button{
+    text-decoration: none;
+    background-color: rgb(1, 1, 44);
+    color: oldlace;
+    padding: 8px 20px;
+    border-radius: 4px;
+    font-weight: 900;
+}
