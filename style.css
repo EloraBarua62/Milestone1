@@ -37,6 +37,7 @@ span{
 
 .half-width img{
     padding-top: 5%;
+    width: 80%;
 }
 
 .flexible{
@@ -52,10 +53,16 @@ span{
     font-weight: 900;
 }
 
-.text-design{
+.text-design-first{
     text-align: center;
     font-size: 40px;
     font-weight: 400;
+    font-family: fantasy;
+}
+
+.text-design-second{
+    font-size: 30px;
+    font-weight: 300;
     font-family: fantasy;
 }
 
@@ -71,5 +78,12 @@ span{
 }
 .small-width img{
     width: 50%;
+}
+
+.background-section3{
+    background-image: url(images/shapes/shape-7.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:550px 500px;
 }
 
