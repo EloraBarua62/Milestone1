@@ -4,6 +4,7 @@ body{
     font-family: 'Libre Baskerville', serif;
     font-family: 'Lobster', cursive;
     font-family: 'Open Sans', sans-serif;
+    margin: 0;
 }
 
 p{
@@ -12,7 +13,7 @@ p{
 }
 
 span{
-    color: seagreen;
+    color: rgb(4, 75, 104);
 }
 .font-design{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -23,7 +24,7 @@ span{
 
 .first-border{
     border-left:4px solid;
-    border-color: green;
+    border-color: navy;
     border-radius: 2px;
     padding-left: 10px;
 }
@@ -33,11 +34,13 @@ span{
     padding-left: 10%;
     padding-top: 5%;
     padding-bottom: 5%;
+    padding-right: 5%;
 }
 
 .half-width img{
     padding-top: 5%;
     width: 80%;
+    border-radius: 3px;
 }
 
 .flexible{
@@ -72,9 +75,14 @@ span{
     margin-right: 2%;
     margin-bottom: 5%;
     padding-left: 5%;
-    padding-right: 5%;
-    background-color: rgb(202, 231, 245);
-    border-radius: 5px;
+    padding-right: 5%;  
+    border-radius: 10px;
+}
+.small-width-col1{
+    background-color: rgb(192, 226, 243);
+}
+.small-width-col2{
+    background-color: rgb(220, 239, 247);
 }
 .small-width img{
     width: 50%;
@@ -84,7 +92,7 @@ span{
     background-image: url(images/shapes/shape-7.png);
     background-position: center;
     background-repeat: no-repeat;
-    background-size:550px 500px;
+    background-size:480px 450px;
 }
 
 .background-section4{
@@ -94,5 +102,18 @@ span{
     background-repeat: no-repeat;
     background-size:190px 180px;
     
+}
+footer{
+    color: oldlace;
+    text-align: center;
+    font-style: italic;
+    background-color: black;
+    padding: 3px;
+}
+.back-img{
+    background-image: url(images/Google-Assistant2.jpg);
+    height: 50%;
+    width: 100%;
+    border-radius: 5px;
 }
 
